@@ -1,0 +1,5 @@
+Detector,Dice,IoU,Accuracy
+canny,0.1766,0.1206,0.5506
+laplacian,0.5057,0.3652,0.5129
+prewitt,0.4039,0.2994,0.506
+sobel,0.4077,0.3038,0.507

@@ -15,7 +15,7 @@ python edgeMain.py
 python segMain.py
 ```
 
-Run from the repository root on Windows; the pyramid and edge scripts contain Windows-style paths. Supply these datasets locally:
+Run from the repository root on Windows; the pyramid and edge scripts contain Windows-style paths. The datasets are included at these paths:
 
 | Task | Input paths |
 | --- | --- |
@@ -23,4 +23,4 @@ Run from the repository root on Windows; the pyramid and edge scripts contain Wi
 | Edges | `Dataset/BSDS500/data/images/test/` and `Dataset/BSDS500/data/groundTruth/test/` (`.mat` annotations) |
 | Segmentation | `Dataset/Cats/images/` (`.jpg`/`.jpeg`) and `Dataset/Cats/groundTruth/` (matching basenames with `.png` masks) |
 
-Scripts save images and CSV metrics in each module's `outputs/` directory. Datasets and generated results are not included. Dependencies are unpinned; full experiments have not been re-run for this archive.
+Scripts save images and CSV metrics in each module's `outputs/` directory. Datasets and generated results are included. Dependencies are unpinned; full experiments have not been re-run for this archive.
